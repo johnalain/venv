@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>json Example</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            let companies = `[
+            {"name": "Big Corporation",
+            "numberOfEmployees": 1000,
+            "CEO":"Mary",
+            "rating":3.6},
+            {"name": "Small Company",
+            "numberOfEmployees": 6,
+            "CEO":null,
+            "rating":4.3}
+        ]`
+        console.log(JSON.parse (companies)[1])
+        </script>
+    </body>
+    </html>
+    <!-- echo "# jsonpro" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/johnalain/jsonpro.git
+git push -u origin main  -->
