@@ -1,0 +1,51 @@
+<!-- https://jsonformatter.org/xml-formatter -->
+<friendslist>
+	<friend>
+		<name>rita</name>
+	</friend>
+	<friend>
+		<name>josephine</name>
+	</friend>
+	<friend>
+		<name>georges</name>
+	</friend>
+	<bestfriend>
+	<name>amal</name>
+    </bestfriend>
+</friendslist>
+<!-- https://jsonformatter.org/xml-formatter
+xml file
+<friendslist>
+<friend>
+    <name>rita</name>
+</friend>
+<friend>
+    <name>josephine</name>
+</friend>
+<friend>
+    <name>georges</name>
+</friend>
+<bestfriend>
+</bestfriend>
+    <name>amal</name>
+</friendslist>
+transformed as json file
+{
+	"friendslist": {
+		"friend": [
+			{
+				"name": "rita"
+			},
+			{
+				"name": "josephine"
+			},
+			{
+				"name": "georges"
+			}
+		],
+		"bestfriend": "",
+		"name": "amal"
+	}
+}
+
+-->
